@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="On explicit save action" autoUploadExternalChanges="true">
+  <component name="PublishConfigData">
     <serverData>
       <paths name="movie_web">
         <serverdata>
@@ -12,7 +12,7 @@
       <paths name="python_study">
         <serverdata>
           <mappings>
-            <mapping deploy="/date/sftp/github/python_study" local="$PROJECT_DIR$" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
@@ -38,6 +38,5 @@
         </serverdata>
       </paths>
     </serverData>
-    <option name="myAutoUpload" value="ON_EXPLICIT_SAVE" />
   </component>
 </project>
