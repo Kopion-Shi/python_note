@@ -25,7 +25,7 @@ def time_statistic(func):
 
     return wrapper
 
-@time_statistic
+# @time_statistic
 @log
 def now():
     print ('2016-12-04')
