@@ -3,6 +3,7 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/crawler/study/part_first/crawler_data_analysis/img" />
+      <excludeFolder url="file://$MODULE_DIR$/crawler/study/part_first/crawler_data_analysis/img_meinv" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.8 (ps)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />

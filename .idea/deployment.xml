@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData">
+  <component name="PublishConfigData" autoUpload="Always" serverName="sxl@192.168.80.3:22">
     <serverData>
+      <paths name="autotest_frame">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="movie_web">
         <serverdata>
           <mappings>
@@ -23,6 +30,13 @@
           </mappings>
         </serverdata>
       </paths>
+      <paths name="root@192.168.1.99:22 password">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="root@192.168.1.99:22 password (1)">
         <serverdata>
           <mappings>
@@ -37,6 +51,17 @@
           </mappings>
         </serverdata>
       </paths>
+      <paths name="sxl@192.168.80.3:22">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/sxl/python_dev/python_study" local="$PROJECT_DIR$" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath path="/home/sxl/python_dev/python_study/crawler/study/part_first/crawler_data_analysis" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
     </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
   </component>
 </project>
