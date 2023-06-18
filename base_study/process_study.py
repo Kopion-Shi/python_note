@@ -3,6 +3,7 @@ import time
 import threading
 import multiprocessing
 
+
 class MyThread(threading.Thread):
 
     def run(self):
@@ -15,4 +16,6 @@ class MyThread(threading.Thread):
         b = 1 + 2
         print(b)
 
-if __name__=='__main__':
+
+if __name__ == '__main__':
+    pass
