@@ -7,9 +7,10 @@ FROM ubuntu:18.04
 maintainer sxl Carl3633524461@outlook.com
 
 #RUN 执行以下命令
-RUN apt update
-RUN apt install python3 python3-pip
-RUN pip3 iinstall flask
+RUN sed -i 's#http://archive.ubuntu.com/#http://mirrors.tuna.tsinghua.edu.cn/#' /etc/apt/sources.list;
+RUN apt-get update --fix-missing && apt-get install -y git --fix-missing
+RUN apt install -y python3 python3-pip --fix-missing
+RUN pip3 install flask -i http://pypi.douban.com/simple --trusted-host pypi.douban.com
 RUN mkdir -p /date/www/
 
 #拷贝文件到工作目录
@@ -17,7 +18,7 @@ COPY app.py /date/www/app.py
 
 #工作目录文件
 WORKDIR /date/www/
-RUN git clone
+RUN git clone https://github.com/Kopion-Shi/python_note.git
 #EXPOSE 映射端口
 EXPOSE 80
 
