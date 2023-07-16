@@ -11,8 +11,6 @@ def q_check(exp):
             print(f'q_check running{res}')
             if exp in str(res):
                 print('预期结果get')
-                break
-
 class Myprocess():
 
     def __int__(self):
